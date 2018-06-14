@@ -1,0 +1,7 @@
+---
+- hosts: pw3678
+  become: true
+  gather_facts: no
+
+  tasks:
+    - action: ping
